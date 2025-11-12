@@ -110,11 +110,11 @@ The project is deployed on **Streamlit**, creating an **interactive web app** wh
 - View the model’s confidence percentage  
 - Read disease description and treatment suggestions  
 
----
-
 **Command to run locally:**
 ```bash
 streamlit run app.py
+
+---
 
 Plant Disease Detection/
 │
