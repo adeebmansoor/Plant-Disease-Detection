@@ -114,3 +114,22 @@ The project is deployed on **Streamlit**, creating an **interactive web app** wh
 ```bash
 streamlit run app.py
 
+Plant Disease Detection/
+│
+├── app.py                          # Streamlit application
+├── model/
+│   ├── cnn_model.h5                # Trained CNN model file
+│
+├── dataset/
+│   ├── color/                      # PlantVillage color images
+│   ├── grayscale/
+│   ├── segmented/
+│
+├── static/
+│   ├── sample_images/              # Example test images
+│
+├── requirements.txt                # Dependencies
+├── README.md                       # Project documentation
+└── utils/
+    ├── preprocess.py               # Image preprocessing script
+    ├── predict.py                  # Model prediction function
