@@ -114,9 +114,3 @@ The project is deployed on **Streamlit**, creating an **interactive web app** wh
 ```bash
 streamlit run app.py
 
-│
-├── requirements.txt                # Dependencies
-├── README.md                       # Project documentation
-└── utils/
-    ├── preprocess.py               # Image preprocessing script
-    ├── predict.py                  # Model prediction function
